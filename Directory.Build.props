@@ -1,0 +1,22 @@
+<!-- 
+SPDX-FileCopyrightText: (c) 2021-2024 T. Graf
+SPDX-License-Identifier: Apache-2.0
+-->
+
+
+<Project>
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0</FileVersion>
+    <Product>Tethys.TextCompare</Product>
+    <Company></Company>
+    <Copyright>Copyright (C) 2021-2024 T. Graf</Copyright>
+    <Authors>T. Graf</Authors>
+	  <Description>Text compare UI support for .Net applications</Description>
+	  <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageProjectUrl>https://github.com/tngraf/Tethys.TextCompare</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/tngraf/Tethys.TextCompare</RepositoryUrl>
+	  <PackageTags>Tethys Text Compare Diff</PackageTags>
+  </PropertyGroup>
+</Project>
