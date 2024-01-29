@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 # Tethys.TextCompare
 
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)
-[![Nuget](https://img.shields.io/badge/nuget-2.0.0-brightgreen.svg)](https://www.nuget.org/packages/Tethys.SPDX.KnownLicenses/2.0.0)
+[![Nuget](https://img.shields.io/badge/nuget-1.0.0-brightgreen.svg)](https://www.nuget.org/packages/Tethys.TextCompare)
 
 Text compare UI support for .Net applications.
 
