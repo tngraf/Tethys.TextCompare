@@ -1,0 +1,194 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:dcf4ce4b-acd3-43e7-9fb9-8700f3e56294",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-10-27T21:11:26Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "CycloneDX module for .NET",
+        "version": "4.0.0.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "Tethys.TextCompare@1.0.0",
+      "name": "Tethys.TextCompare",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/AbrarJahin.DiffMatchPatch@0.1.0",
+      "authors": [
+        {
+          "name": "Google, NeilFraser, AbrarJahin"
+        }
+      ],
+      "name": "AbrarJahin.DiffMatchPatch",
+      "version": "0.1.0",
+      "description": "https://github.com/google/diff-match-patch/blob/master/README.md",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "C928D1F4B2BB1325E13AD4DF47D1061EA3B44754B5A036D710F3BAC7AC162706BAC1B6A668CB956F839B301240B6381B7CD6C5EFA22A0C295E4568B8B90F0338"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "copyright": "Google",
+      "purl": "pkg:nuget/AbrarJahin.DiffMatchPatch@0.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/google/diff-match-patch",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/google/diff-match-patch",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/StyleCop.Analyzers@1.1.118",
+      "authors": [
+        {
+          "name": "Sam Harwell et. al."
+        }
+      ],
+      "name": "StyleCop.Analyzers",
+      "version": "1.1.118",
+      "description": "An implementation of StyleCop\u0027s rules using Roslyn analyzers and code fixes",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "398619762085FDBDCAFC0CC6590D8F2D01F9067411CD07C76DB520B9C32926A05EF63B0F4E7C9087DDA831A6DF7C571370147610EA49C8C729F43D397ECF32BC"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright 2015 Tunnel Vision Laboratories, LLC",
+      "purl": "pkg:nuget/StyleCop.Analyzers@1.1.118",
+      "externalReferences": [
+        {
+          "url": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Tethys.Logging@1.6.1",
+      "authors": [
+        {
+          "name": "Thomas Graf"
+        }
+      ],
+      "name": "Tethys.Logging",
+      "version": "1.6.1",
+      "description": "Simple logging and enhancements for existing logging frameworks.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AA1A34B4D491F71753F13407099F7FAF60FC05861872025C993731006D202485C13F283C43BBDAB2FF9A1C6C002A4D1CAF535FCDEE282DEDD8E724EE3355D785"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright (C) 2009-2021 T. Graf",
+      "purl": "pkg:nuget/Tethys.Logging@1.6.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/tngraf/Tethys.Logging/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Tethys.Logging.Controls.NET5@1.6.1",
+      "authors": [
+        {
+          "name": "Thomas Graf"
+        }
+      ],
+      "name": "Tethys.Logging.Controls.NET5",
+      "version": "1.6.1",
+      "description": "Simple logging and enhancements for existing logging frameworks.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3B4B59F8B6C2E9A77ABD993D255347BDCD811A1B9A8EC040C64E2DBC037296AC443DA31354E6E8C04D1FD65097C8B9E1D0A1DDCCE3422A86A9EADCA5D3423E76"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright (C) 2009-2021 T. Graf",
+      "purl": "pkg:nuget/Tethys.Logging.Controls.NET5@1.6.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/tngraf/Tethys.Logging/",
+          "type": "website"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:nuget/AbrarJahin.DiffMatchPatch@0.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/StyleCop.Analyzers@1.1.118",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Tethys.Logging.Controls.NET5@1.6.1",
+      "dependsOn": [
+        "pkg:nuget/Tethys.Logging@1.6.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Tethys.Logging@1.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "Tethys.TextCompare@1.0.0",
+      "dependsOn": [
+        "pkg:nuget/AbrarJahin.DiffMatchPatch@0.1.0",
+        "pkg:nuget/StyleCop.Analyzers@1.1.118",
+        "pkg:nuget/Tethys.Logging@1.6.1",
+        "pkg:nuget/Tethys.Logging.Controls.NET5@1.6.1"
+      ]
+    }
+  ]
+}

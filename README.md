@@ -45,3 +45,7 @@ dotnet run --project .\Tethys.TextCompare.Demo\Tethys.TextCompare.Demo.csproj
 ## License
 
 Tethys.TextCompare is licensed under the Apache License, Version 2.0.
+
+## SBOM
+
+For an up-to-date CycloneDX SBOM, please have a look at the [SBOM](https://github.com/tngraf/Tethys.TextCompare/tree/master/SBOM) folder.
